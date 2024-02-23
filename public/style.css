@@ -21,7 +21,7 @@
 
 .head {
     margin-bottom: 2rem;
-    margin-top: 0.7rem;
+   
     text-align   : center;
     color        : #fdf0d5;
     font-size    : 3rem;
@@ -36,7 +36,6 @@
     position        : fixed;
     top             : 0;
     box-shadow      : 4px 4px 9px black;
-
 }
 
 .iheading {
@@ -93,6 +92,7 @@
     overflow  : hidden;
     text-align: justify;
     color     : #14213d;
+   
     /* padding: 0.2rem; */
 }
 
@@ -219,7 +219,7 @@
     border          : none;
     padding         : 1rem;
     outline         : none;
-    margin          : 1rem 2rem;
+    margin          : 0.8rem 0.8rem;
     border-radius   : 1rem;
     font-family     : "Trirong", serif;
     box-shadow      : 2px 2px 5px black;
@@ -331,6 +331,13 @@ a {
     .user {
         font-size     : 20px;
         padding-bottom: 1rem;
+    }
+
+    .user {
+
+        height          : 3rem;
+        padding    : 1rem;
+
     }
 
     .content {
