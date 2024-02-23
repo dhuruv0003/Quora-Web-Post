@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<body>
+    <div class="heading">
+        <a href="http://localhost:3000/posts"><h2 class="head">Edit Your Post</h2></a>
+    </div>
+    <div class="nwrapper">
+        <div class="post npost">
+            <p class="user">Username : @<%=post.username%>
+            </p>
+            <!-- we cannot use patch, put, delete requwst in html forms, so we use method override to do this -->
+            <!-- here the method = post and action is a queryoverride i.e 
+        fro patch /id?_method=PATCH;
+        for put /id?_method=PUT;
+        for delete /id?_method=DELETE; -->
+            <form action="/posts/<%=post.id%>?_method=PATCH" method="post">
+                <div class="form-container">
+                    <textarea cols="30" rows="10" name="content"><%= post.content %></textarea>
+                    <button type="submit" class="glow-on-hover">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+REST:- Stands for Representational State Teansfer.It is an architectural style that defines a set of constraints (Set of rules) to be used for creating web services(Collection of APIs)
+
+Restful APIs:- are the APIs that are created using the concept of REST used for performing the CRUD operations

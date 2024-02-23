@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Post</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<body>
+    <div class="nwrapper">
+        <div class="heading">
+            <a href="http://localhost:3000/posts">
+                <h1 class="head">Quora Web</h1>
+            </a>
+        </div>
+        <h1 class="head">Here is Your Post in detail</h1>
+        <div class="npost post ">
+            <p class="user">Username: @<%= post.username %>
+            </p>
+            <p class="newcontent">Content: <%= post.content %>
+            </p>
+            <a href="http://localhost:3000/posts">Home</a>
+        </div>
+
+    </div>
+</body>
+
+</html>

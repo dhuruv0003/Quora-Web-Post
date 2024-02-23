@@ -1,0 +1,19 @@
+QuoraPost______
+
+A post consists of ->1. Username
+                     2. Content
+
+Operations:-
+1.View the posts
+2.Create
+3.View Individual post
+4.Edit
+5.Delete
+
+Creating restFul APIs
+
+    GET     /posts      View(to get data for all post) 
+    POST    /posts      Create(to add a new Post)
+    GET     /posts/:id  view individual posts
+    PATCH   /posts/:id  To update the posts
+    DELETE  /posts/:id  To dalete the post

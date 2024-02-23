@@ -1,0 +1,8 @@
+CRUD :- Create, Read, Update, Delete
+Operations are as follows:-
+
+Get:-retrieves resources
+Post :- submits new data to the server
+Put:- Updates complete existing data
+Patch:- Updates existing data partially (eg:- emails) 
+Delete:- removes data
