@@ -29,6 +29,10 @@
     /* padding-top: 2rem; */
 }
 
+.heading .head{
+    margin-top: 1rem;
+}
+
 .heading {
     height          : 10vh;
     width           : 100vw;
