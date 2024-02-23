@@ -12,7 +12,7 @@
 <body>
     <div class="iheading">
         <h1 class="head">Quora Web</h1>
-        <form action="http://localhost:3000/posts/new"><button type="submit" class="glow-on-hover">New
+        <form action="https://nine-quora-post-3.onrender.com/posts/new"><button type="submit" class="glow-on-hover">New
                 Post</button>
         </form>
     </div>
@@ -26,9 +26,9 @@
                 <h4 class="content">Content : <%= post.content %>
                 </h4>
                 <div class="edview">
-                    <a href="http://localhost:3000/posts/<%=post.id %>">Click to view full</a>
+                    <a href="https://nine-quora-post-3.onrender.com/posts/<%=post.id %>">Click to view full</a>
                     <div class="eddel">
-                        <a href="http://localhost:3000/posts/<%=post.id %>/edit">Edit Post</a>
+                        <a href="https://nine-quora-post-3.onrender.com/<%=post.id %>/edit">Edit Post</a>
                         <form action="/posts/<%=post.id%>?_method=DELETE" method="post"><button
                                 class="del">Delete</button></form>
                     </div>
@@ -37,7 +37,7 @@
 
             </div>
             <% } %>
-                <form action="http://localhost:3000/posts/new"><button type="submit" class="glow-on-hover">New
+                <form action="https://nine-quora-post-3.onrender.com/posts/new"><button type="submit" class="glow-on-hover">New
                         Post</button>
                 </form>
 
